@@ -1,5 +1,9 @@
-# S2OJ
+# S2OJ Docs
 
-> 基于 [UOJ](https://uoj.ac)，为 [石家庄二中](http://www.sjzez.com) 设计的在线测评系统。
+## Preview
 
-您可以在左侧导航栏中点击相应栏目查看更多信息，手机版用户请点击左下角按钮展开/收起导航栏。
+执行以下命令即可启动本地预览服务器：
+
+```bash
+npx docsify-cli serve
+```
