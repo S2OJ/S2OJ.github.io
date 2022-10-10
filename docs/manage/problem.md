@@ -30,10 +30,74 @@
 
 ### 题目数据管理
 
-![](https://arina.loli.net/2022/10/10/XZmkarNvRQCIzcJ.png)
+![](https://arina.loli.net/2022/10/10/j1MRKJZhpHTnDSI.png)
+
+题目数据管理页面有三个主要板块：导航（图中 5）、子栏目、功能配置（图中 4）。
+
+通过点击导航中的按钮，可以在不同的子栏目中查看到当前使用的配置文件、题目数据、额外数据（样例数据、Hack 数据）、比较器（checker）、验证器（validator）和标准程序（std）。
 
 #### 提交记录可视权限
 
 ![](https://arina.loli.net/2022/10/10/sQwpLzSlKgWGqfy.png)
 
-<!-- TODO -->
+|                    项目                     |                                     允许值                                     |
+| :-----------------------------------------: | :----------------------------------------------------------------------------: |
+|     查看提交文件（`view_content_type`）     |          所有人（`ALL`）、AC 后（`ALL_AFTER_AC`）、禁止查看（`NONE`）          |
+| 查看全部详细信息（`view_all_details_type`） | 所有人（`ALL`）、AC 后（`ALL_AFTER_AC`）、仅自己（`SELF`）、禁止查看（`NONE`） |
+|  查看测试点详细信息（`view_details_type`）  | 所有人（`ALL`）、AC 后（`ALL_AFTER_AC`）、仅自己（`SELF`）、禁止查看（`NONE`） |
+
+#### 题解权限
+
+![](https://arina.loli.net/2022/10/10/LxE7QjtYwkpGbcg.png)
+
+|                项目                |                            允许值                            |
+| :--------------------------------: | :----------------------------------------------------------: |
+|  查看题解（`view_solution_type`）  | 所有人（`ALL`）、AC 后（`ALL_AFTER_AC`）、禁止查看（`NONE`） |
+| 提交题解（`submit_solution_type`） | 所有人（`ALL`）、AC 后（`ALL_AFTER_AC`）、禁止查看（`NONE`） |
+
+#### 上传数据
+
+您可以在此处上传题目数据的压缩包。
+
+#### 试题配置
+
+![](https://arina.loli.net/2022/10/10/vBj4PigKzfIX5Ft.png)
+
+如果压缩包中没有添加 `problem.conf`，那么可以使用这个可视化界面来添加题目配置文件。
+
+S2OJ 内置了以下几种比对函数可以在此界面选择：
+
+- `ncmp`: 整数序列；
+- `wcmp`: 字符串序列；
+- `lcmp`: 多行数据（忽略行内与行末的多余空格，同时忽略文末回车）;
+- `fcmp`: 多行数据（不忽略行末空格，但忽略文末回车）；
+- `rcmp4`: 浮点数序列（误差不超过 1e-4）；
+- `rcmp6`: 浮点数序列（误差不超过 1e-6）；
+- `rcmp9`: 浮点数序列（误差不超过 1e-9）；
+- `yesno`: Yes、No（不区分大小写）；
+- `uncmp`: 整数集合；
+- `bcmp`: 二进制文件。
+
+如果需要使用自定义比较器，请在压缩包中添加 `chk.cpp` 并选择「自定义比较器」选项。
+
+n_tests 表示测试点数量，必须为正整数。
+
+如果不存在 Extra Test，请将 n_ex_tests 和 n_sample_tests 栏留空。
+
+如果需要添加样例测试点，请将其命名为 `ex_{name}{id}.{suffix}`（name 根据类型为下方 input_pre 或 output_pre 中所填内容，id 为从 1 开始的自增序号，suffix 根据类型为下方 input_suf 或 output_suf 所填内容，最终文件名不带大括号）。详情请查看「[传题指引](./toturial/upload_problem)」中的「样例测试点」一节。
+
+input_pre 是输入文件名称的前缀，input_suf 是输入文件的扩展名。输出同理。
+
+若将 n_tests 配置为 10、input_pre 配置为 `data`、input_suf 配置为 `in` ，则将会在压缩包中寻找 `data1.in`、`data2.in`、...、`data10.in`。
+
+time_limit 的单位是秒，不能为小数，编辑时不带单位。
+
+memory_limit 的单位是 MB，推荐值为 2 的整次幂（如 32、64、128、256、512、1024），编辑时不带单位。
+
+配置完成后点击「确定」按钮保存，再点击「检验配置并同步数据」按钮同步数据。
+
+#### 难度系数
+
+> 编者的话：不知道这个功能有谁在用……
+
+难度系数可以是 [0, 10] 之间的实数。
