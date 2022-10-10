@@ -10,3 +10,4 @@
   - [用户管理](/manage/users)
 - **附录**
   - [Markdown & LaTeX 语法入门](/others/markdown)
+- [关于](/about)
