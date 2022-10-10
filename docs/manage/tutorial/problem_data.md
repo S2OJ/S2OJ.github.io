@@ -1,5 +1,7 @@
 # 题目数据格式
 
+?> 本页面的内容修改自 <https://vfleaking.github.io/uoj/problem/>。
+
 下面我们先从传统题的配置讲起，然后再依次展开介绍各类非传统题的配置方式。
 
 ## 传统题的数据格式
@@ -286,7 +288,3 @@ all: chk judger
 ## 样题
 
 在 [这个仓库](https://github.com/vfleaking/uoj-sample-problems) 里存放了一些来自 UOJ 官网的题目数据，供大家参考。
-
----
-
-?> 本页面的内容修改自 <https://vfleaking.github.io/uoj/problem/>。
