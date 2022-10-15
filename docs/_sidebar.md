@@ -3,7 +3,9 @@
   - [题库使用指南](/user/problem)
   - [博客使用指南](/user/blog)
   - [Hack 功能](/user/hack)
-  - [图床](/user/image_hosting)
+  - **应用**
+    - [图床](/user/apps/image_hosting)
+    - [HTML 转 Markdown <small>（搬题神器）</small>](/user/apps/html2markdown) 
 - **管理手册**
   - [部署与维护](/manage/deployment)
   - [题目管理](/manage/problem)
