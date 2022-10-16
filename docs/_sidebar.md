@@ -9,7 +9,6 @@
 - **管理手册**
   - [部署与维护](/manage/deployment)
   - [题目管理](/manage/problem)
-    - [传题指引](/manage/tutorial/upload_problem)
     - [题目数据格式](/manage/tutorial/problem_data)
   - [用户管理](/manage/users)
 - **附录**
