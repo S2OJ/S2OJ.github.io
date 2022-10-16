@@ -122,7 +122,8 @@ memory_limit 的单位是 MB，推荐值为 2 的整次幂（如 32、64、128�
 - 合理使用各级标题，避免滥用标题行导致题面阅读效果变差；
 - 规范使用 LaTeX，比如对「Yes」「No」等文本使用 <code>\`</code> 包裹而不是使用 LaTeX；
 - 题面中的图片请上传至 S2OJ 自带的 [图床](https://sjzezoj.com/image_hosting) 并添加水印以防失效，如果空间用完了可以找管理员续；
-- 题面中支持一定量的 HTML 代码，但如果是从其他 OJ 上复制来的 HTML 代码，请使用 [转换工具](https://sjzezoj.com/html2markdown) 转换后再插入题面。
+- 题面中支持一定量的 HTML 代码，但如果是从其他 OJ 上复制来的 HTML 代码，请使用 [转换工具](https://sjzezoj.com/html2markdown) 转换后再插入题面；
+- 请尽量避免上传纯图片题面。
 
 下面是一个题目模板，可以直接替换掉注释使用：
 
