@@ -10,7 +10,9 @@
   - [部署与维护](/manage/deployment)
   - [题目管理](/manage/problem)
     - [题目数据格式](/manage/tutorial/problem_data)
-  - [用户管理](/manage/users)
+  - **系统管理**
+    - [首页管理](/manage/super_manage/index)
+    - [用户管理](/manage/super_manage/users)
 - **附录**
   - [Markdown & LaTeX 语法入门](/others/markdown)
 - [关于](/about)
