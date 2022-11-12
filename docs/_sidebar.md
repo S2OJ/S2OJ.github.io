@@ -1,7 +1,8 @@
 - [首页](/)
 - **使用手册**
-  - [题库使用指南](/user/problem)
-  - [博客使用指南](/user/blog)
+  - [账号](/user/account)
+  - [题库](/user/problem)
+  - [博客](/user/blog)
   - [Hack 功能](/user/hack)
   - **应用**
     - [图床](/user/apps/image_hosting)
