@@ -5,11 +5,12 @@
   - [Hack 功能](/user/hack)
   - **应用**
     - [图床](/user/apps/image_hosting)
-    - [HTML 转 Markdown <small>（搬题神器）</small>](/user/apps/html2markdown) 
+    - [HTML 转 Markdown <small>（搬题神器）</small>](/user/apps/html2markdown)
 - **管理手册**
   - [部署与维护](/manage/deployment)
   - [题目管理](/manage/problem)
     - [题目数据格式](/manage/tutorial/problem_data)
+  - [Remote Judge](/manage/remote_judge)
   - **系统管理**
     - [首页管理](/manage/super_manage/index)
     - [用户管理](/manage/super_manage/users)
