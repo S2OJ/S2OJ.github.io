@@ -12,6 +12,7 @@
   - [题目管理](/manage/problem)
     - [题目数据格式](/manage/tutorial/problem_data)
   - [权限管理](/manage/permissions)
+  - [Remote Judge](/manage/remote_judge)
   - **系统管理**
     - [首页管理](/manage/super_manage/index)
     - [用户管理](/manage/super_manage/users)
