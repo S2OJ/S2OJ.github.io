@@ -1,7 +1,8 @@
 - [首页](/)
 - **使用手册**
-  - [题库使用指南](/user/problem)
-  - [博客使用指南](/user/blog)
+  - [账号](/user/account)
+  - [题库](/user/problem)
+  - [博客](/user/blog)
   - [Hack 功能](/user/hack)
   - **应用**
     - [图床](/user/apps/image_hosting)
@@ -10,6 +11,7 @@
   - [部署与维护](/manage/deployment)
   - [题目管理](/manage/problem)
     - [题目数据格式](/manage/tutorial/problem_data)
+  - [权限管理](/manage/permissions)
   - [Remote Judge](/manage/remote_judge)
   - **系统管理**
     - [首页管理](/manage/super_manage/index)
