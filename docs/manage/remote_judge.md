@@ -2,6 +2,24 @@
 
 ?> 本功能在 [renbaoshuo/S2OJ#28](https://github.com/renbaoshuo/S2OJ/pull/28) 中引入。
 
+## 新建题目
+
+![](https://arina.loli.net/2023/01/24/aM13hg9v4WqQsPG.png)
+
+点击「新建远端评测题目」按钮，进入此页面：
+
+![](https://arina.loli.net/2023/01/24/53tPAHZpzVnsC1d.png)
+
+选择远程 OJ，输入题号即可添加远程题目。
+
+如果遇到抓取失败的情况可以多试几次，一般是网络问题。
+
+## 重爬题目
+
+![](https://arina.loli.net/2023/01/24/UsZC147GRkv5KEp.png)
+
+点击按钮即可重新从远端 OJ 爬取题目信息。
+
 ## Codeforces
 
 ### 账号维护
