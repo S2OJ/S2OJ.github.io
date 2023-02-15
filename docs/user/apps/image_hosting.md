@@ -10,7 +10,7 @@
 
 ## 界面
 
-![](https://arina.loli.net/2022/10/14/NTf1agX87iRlZeO.png)
+![](./images/image_hosting-1.png)
 
 ## 上传
 
@@ -20,11 +20,11 @@
 
 ### 单击上传
 
-![](https://arina.loli.net/2022/10/14/f1ovzjuQ3mHIMCe.png)
+![](./images/image_hosting-2.png)
 
 选择文件后，会弹出上传提示框：
 
-![](https://arina.loli.net/2022/10/16/Fd6WDLJnuSKzqBr.png)
+![](./images/image_hosting-3.png)
 
 输入验证码后上传即可。
 
@@ -32,14 +32,14 @@
 
 若剪贴板中存在图片，那么在图床页面中按下「Ctrl + V」（粘贴快捷键）时会自动识别并弹出上传提示框：
 
-![](https://arina.loli.net/2022/10/16/Fd6WDLJnuSKzqBr.png)
+![](./images/image_hosting-4.png)
 
 ### 拖拽上传
 
-![](https://arina.loli.net/2022/10/14/uzWxdROaNKcoIPQ.png)
+![](./images/image_hosting-5.png)
 
 将图片文件拖拽至上传框，会弹出上传提示框：
 
-![](https://arina.loli.net/2022/10/16/Fd6WDLJnuSKzqBr.png)
+![](./images/image_hosting-6.png)
 
 输入验证码后上传即可。
