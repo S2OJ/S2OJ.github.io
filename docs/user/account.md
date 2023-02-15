@@ -10,7 +10,7 @@ S2OJ 支持 Gravatar 和 QQ 两种头像来源。默认情况下会使用 Gravat
 
 ## 更改个人信息
 
-![](https://arina.loli.net/2022/11/12/fxc7GlWOtDuVh5r.png)
+![](./images/account-1.png)
 
 用户不可自行修改的信息：
 
@@ -20,7 +20,7 @@ S2OJ 支持 Gravatar 和 QQ 两种头像来源。默认情况下会使用 Gravat
 
 ## 权限
 
-![](https://arina.loli.net/2022/11/12/Md2jg6ctbhz1OYE.png)
+![](./images/account-2.png)
 
 详细的权限介绍请在 [权限管理](/manage/permissions.md) 页面查看。
 
@@ -28,6 +28,6 @@ S2OJ 支持 Gravatar 和 QQ 两种头像来源。默认情况下会使用 Gravat
 
 ### 账号过期
 
-![](https://arina.loli.net/2022/11/12/f2E6NtdhFcbDQvn.png)
+![](./images/account-3.png)
 
 请联系管理员解决。
